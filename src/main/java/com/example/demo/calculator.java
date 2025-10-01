@@ -15,15 +15,15 @@ public class calculator {
             case"+":
                 total = num1 + num2;
                 break;
-    
+
             case"-":
                 total = num1 - num2;
                 break;
-    
+
             case"*":
                 total = num1 * num2;
                 break;
-    
+
             case"/":
                 if (num2 != 0) {
                     total = num1 / num2;
@@ -32,7 +32,7 @@ public class calculator {
                 }
                 break;
             default:
-                return "Error: Invalid operation.";
+                return "Error:  Invalid operation.";
         }
         return "Total is " + total;
     }
